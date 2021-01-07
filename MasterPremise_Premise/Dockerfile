@@ -7,11 +7,10 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY . /src
 RUN dotnet restore "./Jea.MasterPremiseApp.PremiseService.Api/Jea.MasterPremiseApp.PremiseService.Api.csproj"
-WORKDIR "/src/."
-RUN dotnet build "Jea.MasterPremiseApp.PremiseService.Api.csproj" -c Release -o /app/build
+RUN dotnet build "./Jea.MasterPremiseApp.PremiseService.Api/Jea.MasterPremiseApp.PremiseService.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Jea.MasterPremiseApp.PremiseService.Api.csproj" -c Release -o /app/publish
+RUN dotnet publish "./Jea.MasterPremiseApp.PremiseService.Api/Jea.MasterPremiseApp.PremiseService.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
