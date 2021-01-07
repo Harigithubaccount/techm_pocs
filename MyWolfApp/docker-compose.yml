@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  Mywolfapp-api:
+    image: 182645132189.dkr.ecr.us-east-1.amazonaws.com/jea_poc:latest
+    container_name: Mywolfapp-api
+    restart: on-failure:5
+    ports:
+      - "80:80"
+    healthcheck:
+      test: ["CMD-SHELL","netstat -antlp | grep 80" ]
+      interval: 10s
+      timeout: 2s
+      retries: 2
