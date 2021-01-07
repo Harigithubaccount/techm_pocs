@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  MasterPremise_premise-api:
-    image: 182645132189.dkr.ecr.us-east-1.amazonaws.com/MasterPremise_premise-api:latest
-    container_name: MasterPremise_premise-api
+  masterpremise_premise-api:
+    image: 182645132189.dkr.ecr.us-east-1.amazonaws.com/masterpremise_premise-api:latest
+    container_name: masterpremise_premise-api
     restart: on-failure:5
     ports:
       - "80:80"
