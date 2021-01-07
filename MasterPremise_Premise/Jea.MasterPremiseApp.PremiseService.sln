@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.Api", "Jea.MasterPremiseApp.PremiseService.Api\Jea.MasterPremiseApp.PremiseService.Api.csproj", "{9D19AAE7-597F-4436-8D4C-DB3005987573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.BusinessServices", "Jea.MasterPremiseApp.PremiseService.BusinessServices\Jea.MasterPremiseApp.PremiseService.BusinessServices.csproj", "{74E2F636-301E-4486-A201-EE600B2AADDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.Chassis", "Jea.MasterPremiseApp.PremiseService.Chassis\Jea.MasterPremiseApp.PremiseService.Chassis.csproj", "{5189181D-A551-483F-B495-8B238F929E34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.DataAccess", "Jea.MasterPremiseApp.PremiseService.DataAccess\Jea.MasterPremiseApp.PremiseService.DataAccess.csproj", "{9B8D10D6-880A-4085-A619-1CE859EBA38F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.Integration", "Jea.MasterPremiseApp.PremiseService.Integration\Jea.MasterPremiseApp.PremiseService.Integration.csproj", "{FF777FA7-DE90-4143-A97B-E2476A61572A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.Specification", "Jea.MasterPremiseApp.PremiseService.Specification\Jea.MasterPremiseApp.PremiseService.Specification.csproj", "{D78CA6DE-E1EF-4921-AAA6-FD6A6434F049}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jea.MasterPremiseApp.PremiseService.Tests", "Jea.MasterPremiseApp.PremiseService.Tests\Jea.MasterPremiseApp.PremiseService.Tests.csproj", "{1E45207F-D344-4D77-802B-F612711EEB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jea.MasterPremiseApp.Utilities", "Jea.MasterPremiseApp.Utilities\Jea.MasterPremiseApp.Utilities.csproj", "{512F632B-ED4C-4815-B510-BE71CE33A0C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D19AAE7-597F-4436-8D4C-DB3005987573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D19AAE7-597F-4436-8D4C-DB3005987573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D19AAE7-597F-4436-8D4C-DB3005987573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D19AAE7-597F-4436-8D4C-DB3005987573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E2F636-301E-4486-A201-EE600B2AADDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E2F636-301E-4486-A201-EE600B2AADDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E2F636-301E-4486-A201-EE600B2AADDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E2F636-301E-4486-A201-EE600B2AADDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5189181D-A551-483F-B495-8B238F929E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5189181D-A551-483F-B495-8B238F929E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5189181D-A551-483F-B495-8B238F929E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5189181D-A551-483F-B495-8B238F929E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8D10D6-880A-4085-A619-1CE859EBA38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8D10D6-880A-4085-A619-1CE859EBA38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8D10D6-880A-4085-A619-1CE859EBA38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8D10D6-880A-4085-A619-1CE859EBA38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF777FA7-DE90-4143-A97B-E2476A61572A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF777FA7-DE90-4143-A97B-E2476A61572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF777FA7-DE90-4143-A97B-E2476A61572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF777FA7-DE90-4143-A97B-E2476A61572A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78CA6DE-E1EF-4921-AAA6-FD6A6434F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78CA6DE-E1EF-4921-AAA6-FD6A6434F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78CA6DE-E1EF-4921-AAA6-FD6A6434F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78CA6DE-E1EF-4921-AAA6-FD6A6434F049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E45207F-D344-4D77-802B-F612711EEB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E45207F-D344-4D77-802B-F612711EEB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E45207F-D344-4D77-802B-F612711EEB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E45207F-D344-4D77-802B-F612711EEB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512F632B-ED4C-4815-B510-BE71CE33A0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512F632B-ED4C-4815-B510-BE71CE33A0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512F632B-ED4C-4815-B510-BE71CE33A0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512F632B-ED4C-4815-B510-BE71CE33A0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {295D2913-DF1D-4757-9395-9588D967AC6F}
+	EndGlobalSection
+EndGlobal
