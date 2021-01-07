@@ -5,6 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
+COPY . .
 COPY ["Jea.MasterPremiseApp.PremiseService.Api/Jea.MasterPremiseApp.PremiseService.Api.csproj", "./"]
 RUN dotnet restore "./Jea.MasterPremiseApp.PremiseService.Api.csproj"
 COPY . .
